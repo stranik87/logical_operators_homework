@@ -7,5 +7,5 @@ def main(a,b):
     Returns:
         bool: answer
     """
-    x = (a > 0 , b > 0)
+    x = (a < 0 , b < 0)
     return x
