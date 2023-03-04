@@ -7,7 +7,8 @@ def main(a,b):
     Returns:
         bool: answer
     """
-    x = (int(a)%2 == 0), (int(b)%2 == 0)
+    x = ((int(a))%2 == 0), ((int(b))%2 == 0)
     return  x
 
 
+print(main(2, 1))
