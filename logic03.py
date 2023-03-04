@@ -7,5 +7,5 @@ def main(a,b):
     Returns:
         bool: answer
     """
-    x = int(((a%1 == 0) < 0 ,( b%1 == 0) < 0))
-    return x
+    
+    return a < 0 , b < 0
