@@ -9,6 +9,6 @@ def main(a,b):
     """
     if a < 0 and b < 0:
         return True
-    else:
-        False
+    if a > 0 and b < 0:
+        return False
     return a, b
