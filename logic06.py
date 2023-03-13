@@ -6,5 +6,10 @@ def main(a,b):
         b(int): parameter b
     Returns:
         bool: answer
+
     """
-    return
+    if a > 0 or b > 0:
+        return True 
+    return a, b
+
+print(main(5, -4))
