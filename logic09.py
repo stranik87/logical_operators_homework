@@ -7,7 +7,7 @@ def main(a,b):
     Returns:
         bool: answer
     """
-    if a%2 == 1 or b%2 == 2:
+    if a%2 == 1 or b%2 == 1:
         return True
     else:
         return False
