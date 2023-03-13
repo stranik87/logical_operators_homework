@@ -7,5 +7,8 @@ def main(a,b):
     Returns:
         bool: answer
     """
-    
-    return a < 0 , b < 0
+    if a < 0 and b < 0:
+        return True
+    else:
+        False
+    return a, b
