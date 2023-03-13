@@ -10,6 +10,8 @@ def main(a,b):
     """
     if a > 0 or b > 0:
         return True 
+    else:
+        return False
     return a, b
 
-print(main(5, -4))
+print(main(-5, 4))
