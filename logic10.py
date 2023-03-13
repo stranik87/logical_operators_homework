@@ -6,4 +6,13 @@ def main(a):
     Returns:
         bool: answer
     """
-    return
+    if a > 9 and a < 100:
+        return True
+    else:
+        return False
+
+    return a
+
+print(main(10))
+
+
