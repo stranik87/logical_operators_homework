@@ -7,8 +7,11 @@ def main(a,b):
     Returns:
         bool: answer
     """
-    x = ((int(a))%2 == 0), ((int(b))%2 == 0)
-    return  x
+    if a%2 == 0 and b%2 == 0:
+        return True
+    else:
+        return False
+    return  a, b
 
 
-print(main(2, 1))
+print(main(6, 4))
