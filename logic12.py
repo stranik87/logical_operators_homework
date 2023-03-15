@@ -6,4 +6,14 @@ def main(a):
     Returns:
         bool: answer
     """
-    return
+    if a[0] == a[1]:
+        return True
+    else:
+        return False
+        
+    return a
+
+
+
+
+print(main("55"))
