@@ -6,4 +6,17 @@ def main(a):
     Returns:
         bool: answer
     """
-    return
+    if len(a) == 5:
+        return True
+    else:
+        return False
+
+    return a
+
+print(main("12345"))
+
+
+
+
+
+
