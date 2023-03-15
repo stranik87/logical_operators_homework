@@ -6,7 +6,7 @@ def main(a):
     Returns:
         bool: answer
     """
-    if a[0] == a[1]:
+    if a[0].isdigit() == a[1].isdigit():
         return True
     else:
         return False
@@ -16,4 +16,4 @@ def main(a):
 
 
 
-print(main("55"))
+print(main("45"))
