@@ -9,4 +9,4 @@ def main(x):
         bool: answer
     """
     
-    return x//100 == x%10
+    return x//100 == x%10 , x//10 == x%10
