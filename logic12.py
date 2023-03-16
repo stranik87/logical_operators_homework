@@ -6,15 +6,13 @@ def main(a):
     Returns:
         bool: answer
     """
-    b = str(a)
-
-    if b[0] == b[1]:
+    if a%10 == a//10:
         return True
     else:
-        return False
+       return False
         
     return a
 
 
 
-print(main(34))
+print(main(32))
