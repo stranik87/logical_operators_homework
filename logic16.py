@@ -6,14 +6,14 @@ def main(a):
     Returns:
         bool: answer
     """
-    if len(a) == 5:
+    if len(str(a)) == 5:
         return True
     else:
         return False
 
     return a
 
-print(main("12345"))
+print(main(1256))
 
 
 
