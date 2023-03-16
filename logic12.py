@@ -6,7 +6,9 @@ def main(a):
     Returns:
         bool: answer
     """
-    if a[0] == a[1]:
+    b = str(a)
+
+    if b[0] == b[1]:
         return True
     else:
         return False
@@ -15,4 +17,4 @@ def main(a):
 
 
 
-print(main(str(44)))
+print(main(34))
